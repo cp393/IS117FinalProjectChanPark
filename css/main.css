@@ -1,0 +1,48 @@
+/* DEVELOPER: Chan Park, IS117-002, Spring 2021 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.jumbotron {
+    background-image: url("../images/bread1.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px black;
+
+}
+
+.form-group{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.form-check-label{
+    padding-left: 25px;
+}
+
+.abutton{
+    padding-left: 25px;
+}
+
+body
+{ padding-bottom: 50px;
+    background-color: white;
+}
+
+.menutitle{
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 90%;
+    }
+}
